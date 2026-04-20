@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+import myPhotoFile from "../assets/img/MyPhoto.jpeg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,7 +14,6 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const period = 2000;
-  const myPhoto = "https://github.com/user-attachments/assets/6e6c096b-3a9b-47ea-952b-057fbf29d6c1";
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -60,7 +60,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <div style={{ marginTop: '20px', marginBottom: '20px' }}>
                   <img 
-                    src={myPhoto} 
+                    src={myPhotoFile} 
                     alt="Yehezkiel Petra" 
                     style={{ 
                       width: '180px', 
