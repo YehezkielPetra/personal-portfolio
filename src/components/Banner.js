@@ -13,6 +13,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
   const period = 2000;
+  const myPhoto = "https://github.com/user-attachments/assets/6e6c096b-3a9b-47ea-952b-057fbf29d6c1";
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -57,6 +58,20 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
+                <div style={{ marginTop: '20px', marginBottom: '20px' }}>
+                  <img 
+                    src={myPhoto} 
+                    alt="Yehezkiel Petra" 
+                    style={{ 
+                      width: '180px', 
+                      height: '180px', 
+                      borderRadius: '50%', 
+                      border: '4px solid rgba(255, 255, 255, 0.5)',
+                      objectFit: 'cover',
+                      boxShadow: '0px 0px 20px rgba(170, 54, 124, 0.5)'
+                    }} 
+                  />
+                </div>
                 {/* Perbaikan dataPeriod menjadi data-period */}
                 <h1>{`Hi! I'm Yehezkiel Petra`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello, my name is Yehezkiel Petra. im 21 years old and im a student at Bunda Mulia University majoring informatics. im eager to learn a lot of things, i can work in team and work under pressure. i have some skills on HTML, CSS, tailwind, flutter, android studio, a little bit of ReactJS and a javascript</p>
