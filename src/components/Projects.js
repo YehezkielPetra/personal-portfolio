@@ -22,9 +22,9 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Coming Soon",
-      description: "Stay Tuned",
-      imgUrl: ComingSoon,
+      title: "Task Manager",
+      description: "WEB2",
+      imgUrl: projImg3,
     },
     {
       title: "Coming Soon",
