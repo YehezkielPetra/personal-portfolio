@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import ComingSoon from "../assets/img/ComingSoon.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -23,13 +24,13 @@ export const Projects = () => {
     },
     {
       title: "Task Manager",
-      description: "WEB2",
+      description: "WEB 2",
       imgUrl: projImg3,
     },
     {
-      title: "Coming Soon",
-      description: "Stay Tuned",
-      imgUrl: ComingSoon,
+      title: "Mini Store",
+      description: "WEB 2",
+      imgUrl: projImg4,
     },
     {
       title: "Coming Soon",
