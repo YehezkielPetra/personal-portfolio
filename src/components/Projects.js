@@ -16,21 +16,25 @@ export const Projects = () => {
       title: "Samsung Clone",
       description: "Design",
       imgUrl: projImg1,
+      githubUrl: "https://github.com/YehezkielPetra/Project-Samsung",
     },
     {
       title: "AI-Expense Tracker",
       description: "Artificial Intelligence",
       imgUrl: projImg2,
+      githubUrl:"https://github.com/YehezkielPetra/AI-Powered-Expense-Tracker",
     },
     {
       title: "Task Manager",
       description: "WEB 2",
       imgUrl: projImg3,
+      githubUrl:"https://github.com/YehezkielPetra/Task_Manager",
     },
     {
       title: "Mini Store",
       description: "WEB 2",
       imgUrl: projImg4,
+      githubUrl:"https://github.com/YehezkielPetra/ministore",
     },
     {
       title: "Coming Soon",
