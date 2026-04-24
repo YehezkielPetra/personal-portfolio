@@ -75,7 +75,11 @@ export const Banner = () => {
                 {/* Perbaikan dataPeriod menjadi data-period */}
                 <h1>{`Hi! I'm Yehezkiel Petra`} <span className="txt-rotate" data-period="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello, my name is Yehezkiel Petra. I am a 21-year-old Informatics student at Bunda Mulia University. I am an eager learner who excels in team environments and can perform effectively under pressure. My technical toolkit includes HTML, CSS, Tailwind CSS, Flutter, and Android Studio, with emerging proficiency in JavaScript and ReactJS.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href="#connect" style={{ textDecoration: 'none' }}>
+                    <button>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
               </div>}
             </TrackVisibility>
           </Col>
